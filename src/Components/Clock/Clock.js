@@ -7,6 +7,7 @@ class Clock extends React.Component {
       time: new Date().toLocaleString()
     };
   }
+  
   render() {
     return (
       <p className="App-clock">
